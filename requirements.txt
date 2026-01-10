@@ -1,0 +1,16 @@
+# Core deep learning
+torch>=2.0
+torchvision>=0.15
+
+# Medical image I/O
+nibabel>=5.0
+
+# Scientific computing
+numpy>=1.20
+
+# Image processing
+Pillow>=9.0
+matplotlib>=3.5
+
+# Utilities
+tqdm>=4.60
