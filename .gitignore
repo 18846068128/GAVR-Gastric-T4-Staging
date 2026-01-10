@@ -1,0 +1,50 @@
+# =========================
+# Python / PyTorch
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# Data (do NOT upload medical data)
+# =========================
+data/
+**/*.nii
+**/*.nii.gz
+
+# =========================
+# Training / inference outputs
+# =========================
+outputs/
+results_png/
+results_test/
+logs/
+
+# =========================
+# Model checkpoints (ignore by default)
+# =========================
+*.pth
+*.pt
+
+# =========================
+# Temporary / misc
+# =========================
+tmp/
+cache/
